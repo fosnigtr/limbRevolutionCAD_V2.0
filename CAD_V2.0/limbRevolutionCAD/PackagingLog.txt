@@ -1,0 +1,100 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCAD\for_redistribution" />
+  <mkdir dir="C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCAD\for_testing" />
+  <mkdir dir="C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCAD\for_redistribution_files_only" />
+</ant>
+mcc -C -o limbRevolutionCAD -W WinMain:limbRevolutionCAD -T link:exe -d 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCAD\for_testing' -v 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCADV2_0.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\addCylAdap.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\addDistalEndCup.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\addMoldKeys.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\adjustCir.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\barycenter.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\computeCentroid.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\ContactEditor.jar' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\exportGCode.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\extendLinerModel.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\extendModel.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\getAopFile.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\getCord.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\normals.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\readAopFile.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\setAngularAlignment.m' -a 'C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\trimLine.m' 
+[Warning: Name is nonexistent or not a directory: C:\Users\Tyler
+Fosnight\Documents\Tyler Documents\PDI\CAD] 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+Begin validation of MEX files: Tue Dec 15 10:35:07 2015
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwbwpackc.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwbwpackctbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwbwunpackc.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwbwunpackctbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwcannythresholding_tbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwedgethinning_tbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwgrayto16.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwgrayto8.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwimreconstruct.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwint16touint16.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwipp.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwippBinder.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwippfilter.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwippgeotrans.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwippmedianfilter.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwippreconstruct.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwiptutil.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwmorphop_binary_tbb.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwmorphop_ipp.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwmorphop_packed.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwneighborhood.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwnhood.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwtbbhist.dll'.
+No conflicting MATLAB file found.
+Validating 'C:\Program Files (x86)\MATLAB\bin\win32\libmwuint16toint16.dll'.
+No conflicting MATLAB file found.
+End validation of MEX files: Tue Dec 15 10:35:07 2015
+[Warning: Adding path "C:\Users\Tyler Fosnight\Documents\Tyler
+Documents\PDI\CAD_V2.0" to Compiler path instance.] 
+Parsing file "C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCADV2_0.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 25 temporary MEX authorization files.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254422833_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_025443683_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254423482_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254416419_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254413323_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_025448601_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254414093_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254428294_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254427150_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254413639_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254428443_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254412371_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_025447422_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_025444278_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254426711_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254426951_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254411890_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254410412_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254414273_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254416491_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254414112_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254418841_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254429778_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254415336_9540.auth'.
+Removing: 'C:\Users\TYLERF~1\AppData\Local\Temp\mathworks_tmp_0254426405_9540.auth'.
+Generating file "C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCAD\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCAD_resources\icon.ico to C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCAD\for_testing\limbRevolutionCAD.exe.
+Attempting to embed the CTF archive into the application C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCAD\for_testing\limbRevolutionCAD.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\limbRevolutionCAD\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 4 minutes and 40 seconds.

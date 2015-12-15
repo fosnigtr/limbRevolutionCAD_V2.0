@@ -1,0 +1,110 @@
+\documentclass[twoside,a4paper]{refrep}
+\usepackage{makeidx}
+\usepackage{ifthen}
+
+\def\bs{\char'134 } % backslash in \tt font.
+\newcommand{\ie}{i.\,e.,}
+\newcommand{\eg}{e.\,g..}
+\DeclareRobustCommand\cs[1]{\texttt{\char`\\#1}}
+
+\title{limbRevolution.CAD V2.0}
+\author{Prosthetic Design, Inc.}
+
+\date{}
+\emergencystretch1em  %
+
+\pagestyle{myfootings}
+\markboth{limbRevolution.CAD manual}%
+{limbRevolution.CAD manual}
+
+\makeindex 
+
+\setcounter{tocdepth}{2}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Introduction}
+	Prosthetic Design, Inc. (PDI) was established in 1991 soon after the inception of CAD/CAM, silicone liners, and high profile energy storing feet. These three advances created a need for modular, low profile, multi-task components to optimize the performance of endoskeletal lower extremity limbs. It has been our mission to fulfill this need and to supply the industry with universal solutions that create flexibility in limb design, high quality socket reproduction and maintain a value in the time vs. material equation.
+	We are known throughout the industry for our practical elegance, original concepts, clinical inspiration, patient proven products, and dedicated to unparalleled customer service. Our creative, dedicated staff responds to clinician’s needs and ideas to bring them to reality at the patient level.
+	Since early 2000, PDI began leveraging additive manufacturing technologies and methodologies to increase the industries bottom line by cutting manufacturing costs. Our staff, industry collaborators and academic collaborators have all played a role in the success of this technology. We welcome bright minds, and we are excited to teach, learn and collaborate with anyone passionate about delivering quality and cost effective lower extremity prosthetic solutions.
+	Contained in the accompanying package is knowledge generated over years of research, development, and design at PDI. The accompanying package contains a general overview of our mythologies and technologies in addition to detailed software and hardware descriptions and step-by-step instructions.
+	PDI currently uses Ohio Willow Wood’s Omega Tracer CAD software to design prosthetic sockets and liner mold models. Files from Omega Tracer formatted using The American Academy of Orthotics and Prosthetists standards (i.e., .aop), are converted using PDI’s in-house tested software to a .tap file format, a format widely used in the CNC industry. Tool path instructions contained in the .tap file are communicated to our additive manufacturing machine by Mach 3, a PC-based machine control software. In the near future, PDI will launch their beta CAD and hardware control software, mitigating the need for third-party software thus streamlining our additive manufacturing process.
+	In addition to the detailed descriptions and operation instructions, the accompanying package also includes our suggested machine operation safety guidelines and known failures. Additionally, the safety guidelines and the known failures for our printed technologies are included.
+	For additional information about PDI’s other lower extremity prosthetic solutions including our elevated vacuum locking system and carbon fiber adapter plates please visit prostheticdesign.com. Further questions can be sent to our engineer Tyler Fosnight at fosnight@prostheticdesign.com. Additionally, our open source CAD software, hardware control software, and software documentation (while still under construction) can be found at https://github.com/fosnigtr/limbRevolutionCAD.
+	PDI looks forward to continuing our mission to deliver cost effective and high quality solutions. We are enthusiastic to collaborate with your talented faculty and students as we, together, improve the lower extremity prosthetic industry.
+	Kindest regards,
+	Prosthetic Design, Inc. 
+	
+	\section{Installing limbRevolution.CAD}
+	\section{limbRevolution.CAD resolution}
+	limbRevolution.CAD's modification resolution is limited by the method used to generate the model's file (i.e., scanner). See your scanner's manual or contact the manufacture for details. 
+	\section{The "Home" tab}
+	\subsection{Overview}
+	The home tab is your portal for opening, importing, saving, and exporting model files. This tab also gives you access to limbRevolution.CAD's manual and souce code.
+	\subsection{Opening files}
+	Open saved model files with the file extension .mat. The .mat file is limbRevolution.CAD's default file format and should be used during the model modification process. It is good practice to include the patient's last and first name and the modification date in the model's filename.  
+	\subsection{Importing .aop files}
+	The American Academy of Orthotics and Prosthetists file format standard or .aop is the industry standard for for prosthetic computer aided manufacturing (CAD). Import .aop files into limbRevolution by clicking the "Import" button on the "Home" tab and select the .aop file you would like to import. For more information the .aop file format standard see ???.
+	\subsection{Importing .stl files}
+	Currently, limbRevolution.CAD does not support .stl file importing or modification. Look for this tool in future limbRevolution.CAD releases.
+	\subsection{Saving files}
+	Save you model and modifications as .mat files through out the model modification process with the "save as" and "save" buttons located in the "Home" tab and top right of limbRevolution.CAD's window.
+	\subsection{Exporting .tap files}
+	Create printing projects by exporting models as .tap file. The .tap file format is widely used in the CNC industry. Tool path instructions contained in the .tap file are communicated to Prosthetic Design, Inc.'s additive manufacturing machine by Mach 3, a PC-based machine control software.
+	\subsection{Exporting .stl files}
+	Currently, limbRevolution.CAD does not support .stl file exporting. Look for this tool in future limbRevolution.CAD releases.
+	\subsection{Help documentation}
+	For all questions pertaining to operating limbRevolution.CAD refer to this manual. Access this manual using the "Help" button located on limbRevolution.CAD's "Home" tab. For any other question email our support team at fosnight@prostheticdesign.com.
+	\subsection{View source code at GitHub}
+	limbRevolution.CAD's source code is saved, viewable, dowloadedable for free at GitHub's on line software repository at https://github.com/fosnigtr/limbRevolutionCAD.
+	\section{The "Socket tools" tab}
+	\subsection{Overview}
+	limbRevolution.CAD supports model angular alignment, extension, circumferential adjustment, and adding trimelines and cylindrical adapters.
+	\subsection{Angular alignment}
+	limbRevolution.CAD allows ?? manual angular alignment resolution of the model in the M-L (medial-lateral) and A-P (anterior-posterior) planes. The Align tool will appear next to the canvas when the "Align" tool is toggled on. Use the scroll bars to align the model in the A-P and M-P planes and select "OK" after updating the alignment. Select "Cancel" to undo all alignment adjustments made during the modification and to exit the alignment tool.
+	\subsection{Extending model}
+	limbRevolution.CAD allows extension of the model along the model's long axis. The extend resolution is limited by the resolution of the device used to generate the model (i.e., your scanner resolution). The Extend tool will appear next to the canvas when the tool is toggled on. Select "Cancel" to undo extension made during the modification and to exit the extension tool. Click the "select top of section" and "select bottom of section" buttons and choose the top and bottom of the section to extend by double clicking on the model. A orange ring delineates the section. Then enter the value to extend the section in millimeters in the "extend by" text box and press enter to apply the modification. Select "OK" to accept the modification or "Cancel" to undo the extension. The extension tool applies the modification by stretching the model long its long axis.
+	\subsection{Adjust model's circumference}
+	limbRevolution.CAD allows circumferencial adjustment of the model. The modification resolution is limited by the resolution of the device used to generate the model (i.e., your scanner resolution). The Circumferencial adjustment tool will appear next to the canvas when the tool is toggled on. Select "Cancel" to undo adjustments made during the modification and to exit the Circumferencial adjustment tool.
+	\subsection{Add trimlines}
+	limbRevolution.CAD allows addition of trimelines to the model. The trimlines tool will appear next to the canvas when the tool is toggled on. Select "Cancel" to undo trinlines made during the modification and to exit the trimlines tool.
+	\subsection{Add cylindrical adapter}
+	\section{The "Templates" tab}
+	\subsection{Revolution liner}
+	\section{The "Assembly tools" tab}
+	\subsection{Assemble}
+	\section{The "Print project" tab}
+	\subsection{Help documentation}
+	\section{Known bugs}
+	
+%	If you want to use a layout different from the ones distributed with 
+%	\LaTeX, you have to take the following steps: 
+%	
+%	\begin{enumerate}
+%		
+%		\item
+%		The layout has to be defined.
+%		This is usually a job for a professional designer.
+%		
+%		\seealso{Chapter \ref{design}}
+%		You can find detailed information about how change the design in 
+%		chapter~\ref{design}.
+%		
+%		\item
+%		The layout has to be programmed in \LaTeX. This can either result in 
+%		a ``package'' that changes the behaviour of a standard class, or 
+%		in the definition of a new ``class''. \texttt{Refman} used to be a 
+%		package that changed the definition of the \texttt{article} 
+%		class but is now a class of its own. When writing a new class, you 
+%		will have more work, but as a result more freedom to change things.
+%		
+%		\seealso{Chapter \ref{layout}}
+%		Chapter~\ref{layout} contains more information about the new layout.
+%		
+%	\end{enumerate}
+
+\end{document}

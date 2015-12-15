@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {0.1}Introduction}{3}
+\contentsline {section}{\numberline {0.2}Installing limbRevolution.CAD}{3}
+\contentsline {section}{\numberline {0.3}limbRevolution.CAD resolution}{3}
+\contentsline {section}{\numberline {0.4}The Home tab}{4}
+\contentsline {subsection}{\numberline {0.4.1}Overview}{4}
+\contentsline {subsection}{\numberline {0.4.2}Opening files}{4}
+\contentsline {subsection}{\numberline {0.4.3}Importing .aop files}{4}
+\contentsline {subsection}{\numberline {0.4.4}Importing .stl files}{4}
+\contentsline {subsection}{\numberline {0.4.5}Saving files}{4}
+\contentsline {subsection}{\numberline {0.4.6}Exporting .tap files}{4}
+\contentsline {subsection}{\numberline {0.4.7}Exporting .stl files}{4}
+\contentsline {subsection}{\numberline {0.4.8}Help documentation}{4}
+\contentsline {subsection}{\numberline {0.4.9}View source code at GitHub}{5}
+\contentsline {section}{\numberline {0.5}The Socket tools tab}{5}
+\contentsline {subsection}{\numberline {0.5.1}Overview}{5}
+\contentsline {subsection}{\numberline {0.5.2}A-P, M-L and height indicator}{5}
+\contentsline {subsection}{\numberline {0.5.3}Angular alignment}{5}
+\contentsline {subsection}{\numberline {0.5.4}Extending model}{5}
+\contentsline {subsection}{\numberline {0.5.5}Adjust model's circumference}{5}
+\contentsline {subsection}{\numberline {0.5.6}Add trim lines}{6}
+\contentsline {subsection}{\numberline {0.5.7}Add cylindrical adapter}{6}
+\contentsline {section}{\numberline {0.6}The Templates tab}{6}
+\contentsline {subsection}{\numberline {0.6.1}Overview}{6}
+\contentsline {subsection}{\numberline {0.6.2}Revolution liner}{6}
+\contentsline {section}{\numberline {0.7}The Assembly tools tab}{6}
+\contentsline {subsection}{\numberline {0.7.1}Overview}{6}
+\contentsline {subsection}{\numberline {0.7.2}Assemble}{6}
+\contentsline {section}{\numberline {0.8}The "Print project" tab}{7}
+\contentsline {subsection}{\numberline {0.8.1}Help documentation}{7}
+\contentsline {section}{\numberline {0.9}Known bugs in limbRevolution.CAD V2.0}{7}
+\contentsline {subsection}{\numberline {0.9.1}Overview}{7}
+\contentsline {subsection}{\numberline {0.9.2}Known bugs}{7}

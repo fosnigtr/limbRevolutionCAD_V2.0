@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings name="matlab" xmlns="urn:mathworks.matlab.settings" xsi:schemaLocation="urn:mathworks.matlab.settings settings.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <key name="DeleteFilesPermanently">
+        <bool>
+            <value>1</value>
+        </bool>
+    </key>
+    <key name="G11nLanguagePref">
+        <string>
+        </string>
+    </key>
+    <key name="UserPath">
+        <string>
+        </string>
+    </key>
+    <settings name="addons" visible="true">
+        <key name="Enabled" visible="true">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="apps" visible="true">
+        <key name="AppsInstallFolder" visible="true">
+            <string>
+            </string>
+        </key>
+    </settings>
+    <settings name="class">
+        <key name="UseFullNameInDisplayHeader">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="datetime">
+        <key name="DefaultDateFormat" visible="true">
+            <string>
+            </string>
+        </key>
+        <key name="DefaultFormat" visible="true">
+            <string>
+            </string>
+        </key>
+    </settings>
+    <settings name="desktop">
+        <key name="BlockEditorGraphicalDebugging">
+            <bool>
+            </bool>
+        </key>
+        <key name="EnableMlxSupport">
+            <bool>
+            </bool>
+        </key>
+        <key name="EnableRichScriptSupport">
+            <bool>
+            </bool>
+        </key>
+        <key name="HighDPISupport">
+            <bool>
+            </bool>
+        </key>
+        <settings name="arrayeditor">
+            <key name="CodeGenEnabled">
+                <bool>
+                </bool>
+            </key>
+        </settings>
+        <settings name="commandwindow">
+            <key name="ErrorColor">
+                <int32 minArraySize="3" maxArraySize="3">
+                </int32>
+            </key>
+            <key name="ShowTypoSuggestions">
+                <bool>
+                </bool>
+            </key>
+            <key name="WarningColor">
+                <int32 minArraySize="3" maxArraySize="3">
+                </int32>
+            </key>
+        </settings>
+        <settings name="currentfolder">
+            <key name="CurrentFolderSize">
+                <int32>
+                </int32>
+            </key>
+            <key name="History">
+                <string minArraySize="0" maxArraySize="500">
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\MATLAB\JFrame_example_window]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\MATLAB]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\My Documents]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\OriginalRandDVersion]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0\TestFiles]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD\javaGUI]]></value>
+                    <value><![CDATA[C:\Program Files (x86)\MATLAB\help\techdoc\ref\examples]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\matlabCppExample]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\MATLAB\JTattooDemo]]></value>
+                    <value><![CDATA[C:\Program Files (x86)\MATLAB]]></value>
+                    <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD\TestFiles]]></value>
+                    <value><![CDATA[G:]]></value>
+                    <value><![CDATA[G:\Abbass Code]]></value>
+                    <value><![CDATA[G:\testResults]]></value>
+                </string>
+            </key>
+            <key name="HistorySize">
+                <int32>
+                    <value>20</value>
+                </int32>
+            </key>
+            <key name="ShowHiddenFiles">
+                <bool>
+                </bool>
+            </key>
+            <settings name="autorefresh">
+                <key name="Enabled">
+                    <bool>
+                        <value>1</value>
+                    </bool>
+                </key>
+                <key name="Interval">
+                    <int32>
+                        <value>3</value>
+                    </int32>
+                </key>
+            </settings>
+            <settings name="lastfolder">
+                <key name="ClosedGroups">
+                    <string minArraySize="0" maxArraySize="100000">
+                        <value><![CDATA[GTK-BOOKMARKS File]]></value>
+                        <value><![CDATA[]]></value>
+                        <value><![CDATA[Microsoft Word Document]]></value>
+                        <value><![CDATA[PDF Document]]></value>
+                        <value><![CDATA[Adobe Acrobat Document]]></value>
+                        <value><![CDATA[MATLAB Toolbox]]></value>
+                        <value><![CDATA[Windows Batch File]]></value>
+                        <value><![CDATA[LOG1 File]]></value>
+                        <value><![CDATA[MAT-file]]></value>
+                        <value><![CDATA[Text Document]]></value>
+                        <value><![CDATA[PM File]]></value>
+                        <value><![CDATA[BLF File]]></value>
+                        <value><![CDATA[Figure]]></value>
+                        <value><![CDATA[RHISTORY File]]></value>
+                        <value><![CDATA[Editor Autosave]]></value>
+                        <value><![CDATA[GPR File]]></value>
+                        <value><![CDATA[Remote Desktop Connection]]></value>
+                        <value><![CDATA[Script]]></value>
+                        <value><![CDATA[REGTRANS-MS File]]></value>
+                        <value><![CDATA[File]]></value>
+                        <value><![CDATA[Function]]></value>
+                        <value><![CDATA[MP4 Video]]></value>
+                        <value><![CDATA[PNG image]]></value>
+                        <value><![CDATA[LOG2 File]]></value>
+                        <value><![CDATA[Microsoft PowerPoint Presentation]]></value>
+                        <value><![CDATA[XML Schema File]]></value>
+                        <value><![CDATA[DAT File]]></value>
+                        <value><![CDATA[Configuration settings]]></value>
+                        <value><![CDATA[Microsoft Excel 97-2003 Worksheet]]></value>
+                        <value><![CDATA[Microsoft Excel Add-In]]></value>
+                        <value><![CDATA[Library Compiler Project]]></value>
+                        <value><![CDATA[PL File]]></value>
+                        <value><![CDATA[XML Document]]></value>
+                        <value><![CDATA[JSON File]]></value>
+                        <value><![CDATA[GITCONFIG File]]></value>
+                    </string>
+                </key>
+                <key name="ColumnOrder">
+                    <string minArraySize="0" maxArraySize="100">
+                        <value><![CDATA[icon]]></value>
+                        <value><![CDATA[name]]></value>
+                        <value><![CDATA[status]]></value>
+                        <value><![CDATA[size]]></value>
+                        <value><![CDATA[modified]]></value>
+                        <value><![CDATA[__vertical_attribute:description]]></value>
+                        <value><![CDATA[type]]></value>
+                    </string>
+                </key>
+                <key name="ColumnSizes">
+                    <string minArraySize="0" maxArraySize="100000">
+                        <value><![CDATA[40]]></value>
+                        <value><![CDATA[98]]></value>
+                        <value><![CDATA[40]]></value>
+                        <value><![CDATA[0]]></value>
+                        <value><![CDATA[121]]></value>
+                        <value><![CDATA[0]]></value>
+                        <value><![CDATA[0]]></value>
+                    </string>
+                </key>
+                <key name="GroupColumn">
+                    <string>
+                        <value><![CDATA[icon]]></value>
+                    </string>
+                </key>
+                <key name="GroupMode">
+                    <string>
+                        <value><![CDATA[type]]></value>
+                    </string>
+                </key>
+                <key name="OpenGroups">
+                    <string minArraySize="0" maxArraySize="100000">
+                        <value><![CDATA[TRASHES File]]></value>
+                        <value><![CDATA[MATTPTNFPFNTPRFPRAUROCOPTTHRESHOPTFPROPTTPRTMPTHRESH File]]></value>
+                        <value><![CDATA[Folder]]></value>
+                        <value><![CDATA[Compressed (zipped) Folder]]></value>
+                        <value><![CDATA[AOP File]]></value>
+                        <value><![CDATA[R File]]></value>
+                        <value><![CDATA[TAP File]]></value>
+                        <value><![CDATA[BIN File]]></value>
+                        <value><![CDATA[MATTPTNFPFNTPRFPRAUROCOPTTHRESHOPTFPROPTTPRTHRESH File]]></value>
+                        <value><![CDATA[Application Compiler Project]]></value>
+                        <value><![CDATA[Application]]></value>
+                        <value><![CDATA[CLASS File]]></value>
+                        <value><![CDATA[Executable Jar File]]></value>
+                        <value><![CDATA[Shortcut]]></value>
+                    </string>
+                </key>
+                <key name="SortColumn">
+                    <string>
+                        <value><![CDATA[name]]></value>
+                    </string>
+                </key>
+                <key name="SortDescending">
+                    <bool>
+                        <value>0</value>
+                    </bool>
+                </key>
+                <key name="VisibleColumns">
+                    <string minArraySize="0" maxArraySize="100">
+                        <value><![CDATA[icon]]></value>
+                        <value><![CDATA[name]]></value>
+                        <value><![CDATA[modified]]></value>
+                    </string>
+                </key>
+            </settings>
+            <settings name="lastsearch">
+                <key name="ClosedGroups">
+                    <string minArraySize="0" maxArraySize="10000">
+                        <value><![CDATA[]]></value>
+                    </string>
+                </key>
+                <key name="ColumnOrder">
+                    <string minArraySize="0" maxArraySize="100">
+                        <value><![CDATA[icon]]></value>
+                        <value><![CDATA[name]]></value>
+                        <value><![CDATA[status]]></value>
+                        <value><![CDATA[size]]></value>
+                        <value><![CDATA[modified]]></value>
+                        <value><![CDATA[__vertical_attribute:description]]></value>
+                        <value><![CDATA[location]]></value>
+                        <value><![CDATA[type]]></value>
+                    </string>
+                </key>
+                <key name="ColumnSizes">
+                    <string minArraySize="0" maxArraySize="100000">
+                        <value><![CDATA[40]]></value>
+                        <value><![CDATA[0]]></value>
+                        <value><![CDATA[40]]></value>
+                        <value><![CDATA[0]]></value>
+                        <value><![CDATA[0]]></value>
+                        <value><![CDATA[0]]></value>
+                        <value><![CDATA[0]]></value>
+                        <value><![CDATA[0]]></value>
+                    </string>
+                </key>
+                <key name="GroupColumn">
+                    <string>
+                        <value><![CDATA[location]]></value>
+                    </string>
+                </key>
+                <key name="GroupMode">
+                    <string>
+                        <value><![CDATA[location]]></value>
+                    </string>
+                </key>
+                <key name="OpenGroups">
+                    <string minArraySize="0" maxArraySize="100000">
+                    </string>
+                </key>
+                <key name="SortColumn">
+                    <string>
+                        <value><![CDATA[modified]]></value>
+                    </string>
+                </key>
+                <key name="SortDescending">
+                    <bool>
+                        <value>1</value>
+                    </bool>
+                </key>
+                <key name="VisibleColumns">
+                    <string minArraySize="0" maxArraySize="100">
+                        <value><![CDATA[icon]]></value>
+                        <value><![CDATA[name]]></value>
+                        <value><![CDATA[modified]]></value>
+                        <value><![CDATA[description]]></value>
+                    </string>
+                </key>
+            </settings>
+            <settings name="pathaffordance">
+                <key name="Enabled">
+                    <bool>
+                        <value>0</value>
+                    </bool>
+                </key>
+                <key name="Transparency">
+                    <int32>
+                        <value>40</value>
+                    </int32>
+                </key>
+            </settings>
+        </settings>
+        <settings name="help" visible="true">
+            <key name="DocLanguage" visible="true">
+                <string>
+                </string>
+            </key>
+            <key name="SingleSource" visible="true">
+                <bool>
+                </bool>
+            </key>
+        </settings>
+        <settings name="workspace">
+            <key name="ArraySizeLimit" visible="true">
+                <uint8>
+                    <value>100</value>
+                </uint8>
+            </key>
+            <key name="ArraySizeLimitEnabled" visible="true">
+                <bool>
+                    <value>1</value>
+                </bool>
+            </key>
+            <settings name="savevariablestoscript" visible="true">
+                <key name="ArrayDimensionsFor2Dslice" visible="true">
+                    <double minArraySize="2" maxArraySize="2">
+                        <value>1.0</value>
+                        <value>2.0</value>
+                    </double>
+                </key>
+                <key name="MaximumArraySize" visible="true">
+                    <double>
+                        <value>1000.0</value>
+                    </double>
+                </key>
+                <key name="MaximumNestingLevel" visible="true">
+                    <double>
+                        <value>20.0</value>
+                    </double>
+                </key>
+                <key name="MaximumTextWidth" visible="true">
+                    <double>
+                        <value>76.0</value>
+                    </double>
+                </key>
+                <key name="Using2Dslice" visible="true">
+                    <bool>
+                        <value>0</value>
+                    </bool>
+                </key>
+            </settings>
+        </settings>
+    </settings>
+    <settings name="external">
+        <settings name="interfaces">
+            <settings name="python">
+                <key name="Version">
+                    <string minArraySize="4" maxArraySize="4">
+                    </string>
+                </key>
+            </settings>
+        </settings>
+    </settings>
+    <settings name="graphics">
+        <settings name="machine_specific">
+            <settings name="H2062151969">
+                <key name="ever_crashed_in_graphics">
+                    <uint32>
+                        <value>1</value>
+                    </uint32>
+                </key>
+                <key name="opengl_preference">
+                    <uint32>
+                        <value>2</value>
+                    </uint32>
+                </key>
+            </settings>
+            <settings name="H3481166208">
+                <key name="ever_crashed_in_graphics">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+                <key name="opengl_preference">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+            </settings>
+        </settings>
+    </settings>
+    <settings name="imshow">
+        <key name="AlwaysUseFitMagnification">
+            <bool>
+            </bool>
+        </key>
+        <key name="BorderStyle">
+            <string>
+            </string>
+        </key>
+        <key name="InitialMagnification">
+            <double>
+            </double>
+        </key>
+        <key name="InitialMagnificationStyle">
+            <string>
+            </string>
+        </key>
+        <key name="Migrated">
+            <bool>
+                <value>1</value>
+            </bool>
+        </key>
+        <key name="ShowAxes">
+            <bool>
+            </bool>
+        </key>
+    </settings>
+    <settings name="unittest">
+        <key name="DefaultPluginsFcn">
+            <string>
+            </string>
+        </key>
+    </settings>
+    <settings name="workingfolder">
+        <key name="CustomFolderPath">
+            <string>
+                <value><![CDATA[]]></value>
+            </string>
+        </key>
+        <key name="InitialWorkingFolder">
+            <string>
+                <value><![CDATA[default_folder]]></value>
+            </string>
+        </key>
+        <key name="LastFolderPath">
+            <string>
+                <value><![CDATA[C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD_V2.0]]></value>
+            </string>
+        </key>
+    </settings>
+</settings>
