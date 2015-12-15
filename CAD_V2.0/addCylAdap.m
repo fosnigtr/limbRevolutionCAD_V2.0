@@ -1,6 +1,8 @@
 function addCylAdap( hObject )
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+% This function applies a cylindrical adapter (i.e., void near at the
+% distal end of the model) for componentry (i.e., pylon, pyramid and etc.)
+% attachment. 
+
 model = guidata(hObject);
 
 % SET DEFAULT VALUES

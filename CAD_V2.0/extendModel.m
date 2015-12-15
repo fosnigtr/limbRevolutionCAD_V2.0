@@ -1,4 +1,6 @@
 function extendModel( hObject )
+% This function allows the user to extend the model between to landmarks
+% which are defined by the user. 
 model = guidata(hObject);
 
 % SET DEFAULTS

@@ -1,4 +1,7 @@
 function trimLine( hObject )
+% This function allows the user to draw trim lines on the model. The trim
+% lines are then applied to the model by adjust the circumference of the
+% model above the trim lines drawn by the user. 
 model = guidata(hObject);
 
 % SET DEFAULTS

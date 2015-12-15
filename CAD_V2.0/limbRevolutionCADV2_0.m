@@ -1,6 +1,5 @@
 function main()
 % Description: http://undocumentedmatlab.com/blog/using-pure-java-gui-in-deployed-matlab-apps
-%     cd('C:\Users\Tyler Fosnight\Documents\Tyler Documents\PDI\CAD\javaGUI');
 
 % Add Java library if it is not already on the dynamic Java classpath
 if isempty(which('my.contacteditor.ContacteditorUI'))
@@ -422,6 +421,9 @@ guidata(hObject,model);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     function getLinerTemplate( hJava, hEventData )
+        % This function builds the inner and outer molds for a Revolution
+        % liner. The inner and outer molds are based on a imported model.
+        
        model = guidata(hObject);
         if any(strcmp('data',fieldnames(model)))
             %% UPDATE MODEL HORIZONTAL ALINGMENT

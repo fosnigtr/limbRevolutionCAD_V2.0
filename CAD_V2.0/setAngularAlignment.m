@@ -1,6 +1,10 @@
 function setAngularAlignment( hObject )
 %SETANUGULARALIGNMENT Summary of this function goes here
-%   Detailed explanation goes here
+%   This function allows the user to manually align the model in the
+%   anterior-posterior (A-P) and medial-lateral (M-L) plane. Additionally,
+%   the algorithm for automatic alignment also exist but is not currently
+%   implemented. See Patent US7033327 for algorithm details.
+
 model = guidata(hObject);
 
 % SET DEFAULTS
